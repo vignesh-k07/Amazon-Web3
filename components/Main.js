@@ -13,7 +13,6 @@ const Main = () => {
     transactionCard: `flex justify-between mb-[20px] p-[30px] bg-[#42667e] text-white rounded-xl shadow-xl font-bold gap-[20px] text-xl`,
   }
   const { recentTransactions } = useContext(AmazonContext)
-  console.log(recentTransactions);
 
   return (
     <div className={styles.container}>
